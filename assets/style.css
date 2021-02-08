@@ -1,26 +1,27 @@
 body {
-    background-color:rgb(163, 190, 201);
-    color:rgb(33, 51, 38)
+    background-color: rgb(175, 175, 175); 
+    color:rgb(0, 0, 0)
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+    padding: 0px;
+    margin: 0px;   
 }
 
 header{
     padding:25px 35px;
-    background-color: rgb(56, 141, 106);
+    background-color: rgba(31, 31, 31, 0.603);
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
-
+    border-radius: 5, 0, 0, 0px;
 
 }
 header h1 {
     font-weight: bold;
     font-size: 40px;
     color: 
-    text-shadow: 0 0 10px rgb(163, 190, 201)
+    text-shadow: 0 0 10px rgb(163, 190, 201);
 }
 header nav{
     margin: 9px;
@@ -37,44 +38,92 @@ header nav ul li a{
     font-size: medium;
     text-shadow: 0 0 15px rgba(163, 190, 201);
 }
-head nav ul li a:hover {
-    background:crimson;
-    color: rgb(163, 190, 201);
+header nav ul li a:hover {
+    background:rgb(175, 175, 175);
     border-radius: 20px;
     text-shadow: none;
 }
-
-section{
-    padding: 65px;
+.hero{
+background-image: url("/assets/images/Wood.jpg");
+height: 600px;
+background-size: cover;
+background-position: center;
+padding:25px 35px;
+background-color: rgb(255, 255, 255);
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+position: sticky;
+position: -webkit-sticky;
 }
-.about-me-img {
+.hero p{ 
+text-align: center;
+flex-wrap: wrap;
+justify-content:right;
+border: 3px solid #000000;
+font-size: large;
+float: right;
+overflow: auto;
+}
+.hero-right-side{
+    flex wr;
+}
+section{
+    padding: 5px;
+}
+.about-me{
+display: inline;
+text-align: center;
+margin: 5px;
+padding: 30px;
+width: 20%;
+height: 50%;
+border-right: 5px solid #000000;
 display: flex;
 flex-wrap: wrap;
-size:15px
+justify-content: space-between;
+font-size:60px;
+}
+.about-me-txt{
+    float: right;
+    font-size: 18px;
+}
+   
 }
 .projects{ 
-    padding:25px 35px;
-    background-color: rgb(56, 141, 106);
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
+padding:25px 35px;
+background-color: rgb(175, 175, 175);
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+position: sticky; 
+position: -webkit-sticky;
+border-style: solid;
+border-width: 5px;
+border-color: black;   
+}
+
+.projects h3{
+background-color: white;
+border-style: solid;
+border-width: 1px;
+border-left-width: 1px;
+border-right-width: 1px;
+border-color: black;
+} 
+
+
+.project-1 {
+    border: black;
+    width: 200px;
+    height: 400px;
+    background-image: url("/assets/images/Wood.jpg")
 
 }
-.hero{
-     padding:25px 35px;
-    background-color: rgb(56, 141, 106);
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    
-}
+
 .contact-me{
     padding:25px 35px;
-    background-color: rgb(56, 141, 106);
+    background-color: rgb(255, 255, 255);
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -86,7 +135,8 @@ size:15px
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    background-color: rgb(163, 190, 201); 
+    background-color: rgb(255, 255, 255); 
+    text-align: ;
 }
 .contact-me ul li h3{
     padding: 15px 20px;
@@ -96,6 +146,8 @@ size:15px
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    list-style: none;
-    background-color: rgb(163, 190, 201); 
+    list-style:none;
+    
 }
+
+
